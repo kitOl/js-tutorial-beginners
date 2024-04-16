@@ -6,6 +6,9 @@ body {
 
 }
 
+.the-net-ninja-homepage {
+}
+
 .logo {
     font-size: 50px;
     text-transform: uppercase;
@@ -17,10 +20,16 @@ body {
 }
 
 .content {
-    width: 900px;
+    /* width: 900px; */
+    margin: 0 auto;
     /* height: 200px; */
-    padding: 20px 0;
+    padding: 20px 10px;
     text-align: center;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
 }
 
 nav {
@@ -36,12 +45,19 @@ h2 {
     line-height: 3;
 }
 
-ul {
+nav ul {
+    padding: 0;
     list-style: none;
-    display: none;
+    /* display: none; */
+    text-align: left;
 }
 
-a {
-    color: #fff;
-    text-decoration: none;
+nav ul li {
+    padding: 20px 0;
 }
+
+nav ul li a {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
