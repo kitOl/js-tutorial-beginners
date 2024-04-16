@@ -1,0 +1,20 @@
+body {
+    box-sizing: border-box;
+    background-color: #eee;
+
+    font-family: calibri;
+
+}
+
+#message {
+    width: 400px;
+    padding: 20px;
+    margin: 0 auto;
+
+    color: #444;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+ 
+}
+
