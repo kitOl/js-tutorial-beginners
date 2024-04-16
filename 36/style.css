@@ -1,0 +1,44 @@
+body {
+    color: #fff;
+    background: #111;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.logo {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 2;
+    letter-spacing: 0.5rem;
+    border-bottom: 3px solid #fff;
+    text-align: center;
+}
+
+.content {
+    width: 900px;
+    /* height: 200px; */
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    height: 60px;
+    display: flex;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 3;
+}
+
+ul {
+    list-style: none;
+    display: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
